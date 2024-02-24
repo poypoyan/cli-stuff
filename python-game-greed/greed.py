@@ -136,13 +136,12 @@ if __name__ == '__main__':
         if len(gm.allowed) == 0:
             print('   Game over! Press any key to quit.', end=' ', flush=True)
             readchar.readkey()
-            exit_game()
+            break
         chosen_dir = 0
         while True:
             key = readchar.readkey()
             if key == QUITKEY:
-                print()   # have last new line before exit
-                exit()
+                exit_game()
             if not key in CONTROL:
                 continue
 
