@@ -124,7 +124,7 @@ if __name__ == '__main__':
     WIDTH = 79
     HEIGHT = 22
     PALETTE = ['90;47', '33', '31', '32', '34', '35', '93', '91', '92', '96']
-    CONTROL = ['q', 'w', 'e', 'a', 'd', 'z', 's', 'c']
+    CONTROL = ['q', 'w', 'e', 'a', 'd', 'z', 'x', 'c']
     QUITKEY = ' '
 
     gs = init(HEIGHT, WIDTH)

@@ -7,7 +7,7 @@ q w e
  \|/ 
 a-+-d
  /|\ 
-z s c
+z x c
 ```
 However, this is editable through `CONTROL` variable. Also, press &lt;space&gt; to quit, but this is also editable through `QUITKEY` variable.
 
